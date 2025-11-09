@@ -1,0 +1,14 @@
+﻿{
+  "name": "NotifyTeam",
+  "description": "Sends email/slack notification with model metrics",
+  "inputs": {
+    "metrics_path": "str",
+    "webhook_url": "str"
+  },
+  "outputs": {
+    "message": "str",
+    "notification_sent": "bool",
+    "recipients": "str"
+  },
+  "dependencies_group": "0"
+}

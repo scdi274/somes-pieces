@@ -1,0 +1,16 @@
+﻿{
+  "name": "RunSolarForecast",
+  "description": "Generates next-day solar forecast using trained model",
+  "inputs": {
+    "model_path": "str",
+    "features_csv": "str",
+    "output_csv": "str",
+    "output_plot": "str"
+  },
+  "outputs": {
+    "message": "str",
+    "forecast_file": "str",
+    "plot_file": "str"
+  },
+  "dependencies_group": "0"
+}

@@ -1,0 +1,18 @@
+﻿{
+  "name": "EvaluateAndPlot",
+  "description": "Evaluates model performance and generates plots",
+  "inputs": {
+    "data_path": "str",
+    "model_path": "str",
+    "metrics_out": "str",
+    "plot_out": "str"
+  },
+  "outputs": {
+    "message": "str",
+    "metrics_file": "str",
+    "plot_file": "str",
+    "mae": "float",
+    "r2": "float"
+  },
+  "dependencies_group": "0"
+}
