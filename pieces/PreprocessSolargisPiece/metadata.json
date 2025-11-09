@@ -1,14 +1,14 @@
-﻿{
-  "name": "PreprocessSolargis",
-  "description": "Cleans and feature-engineers Solargis data",
-  "inputs": {
-    "input_path": "str",
-    "output_path": "str"
-  },
-  "outputs": {
-    "message": "str",
-    "processed_rows": "int",
-    "output_file": "str"
-  },
-  "dependencies_group": "0"
+{
+    "outputs":  {
+                    "message":  "str",
+                    "output_file":  "str",
+                    "processed_rows":  "int"
+                },
+    "dependencies_group":  "0",
+    "description":  "Preprocess Solargis data",
+    "name":  "PreprocessSolargisPiece",
+    "inputs":  {
+                   "output_path":  "str",
+                   "input_path":  "str"
+               }
 }

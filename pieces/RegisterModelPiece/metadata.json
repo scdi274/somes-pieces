@@ -1,16 +1,16 @@
-﻿{
-  "name": "RegisterModel",
-  "description": "Registers trained model in Domino Model Registry",
-  "inputs": {
-    "model_path": "str",
-    "metrics_path": "str",
-    "name": "str",
-    "description": "str"
-  },
-  "outputs": {
-    "message": "str",
-    "model_version_id": "str",
-    "registry_url": "str"
-  },
-  "dependencies_group": "0"
+{
+    "outputs":  {
+                    "message":  "str",
+                    "model_version_id":  "str",
+                    "registry_url":  "str"
+                },
+    "dependencies_group":  "0",
+    "description":  "Register model in Domino",
+    "name":  "RegisterModelPiece",
+    "inputs":  {
+                   "metrics_path":  "str",
+                   "name":  "str",
+                   "description":  "str",
+                   "model_path":  "str"
+               }
 }

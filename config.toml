@@ -1,5 +1,5 @@
 [repository]
 REGISTRY_NAME = "scdi274"
-REPOSITORY_NAME = "SoMES-Pieces"
+REPOSITORY_NAME = "somes-pieces"
 REPOSITORY_LABEL = "SoMES -Self Optimizing Microgrid Energy Scheduler"
 VERSION = "0.1.0"

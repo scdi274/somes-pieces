@@ -1,15 +1,15 @@
-﻿{
-  "name": "TrainXGBoost",
-  "description": "Trains XGBoost model on processed Solargis data",
-  "inputs": {
-    "data_path": "str",
-    "model_out": "str",
-    "log_out": "str"
-  },
-  "outputs": {
-    "message": "str",
-    "model_file": "str",
-    "training_log": "str"
-  },
-  "dependencies_group": "0"
+{
+    "outputs":  {
+                    "model_file":  "str",
+                    "message":  "str",
+                    "training_log":  "str"
+                },
+    "dependencies_group":  "0",
+    "description":  "Train XGBoost model",
+    "name":  "TrainXGBoostPiece",
+    "inputs":  {
+                   "data_path":  "str",
+                   "model_out":  "str",
+                   "log_out":  "str"
+               }
 }

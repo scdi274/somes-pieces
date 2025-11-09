@@ -1,0 +1,19 @@
+{
+    "group0": {
+        "dependency": {
+            "dockerfile": null,
+            "requirements_file": null
+        },
+        "pieces": [
+            "EvaluateAndPlotPiece",
+            "FetchSolargisDataPiece",
+            "NotifyTeamPiece",
+            "PreprocessSolargisPiece",
+            "RegisterModelPiece",
+            "RunSolarForecastPiece",
+            "TrainXGBoostPiece"
+        ],
+        "secrets": [],
+        "source_image": "ghcr.io/scdi274/somes-pieces:0.1.0-group0"
+    }
+}

@@ -1,13 +1,13 @@
-﻿{
-  "name": "FetchSolargisData",
-  "description": "Downloads Solargis CSV from S3 or URL",
-  "inputs": {
-    "s3_path": "str",
-    "output_path": "str"
-  },
-  "outputs": {
-    "message": "str",
-    "downloaded_file": "str"
-  },
-  "dependencies_group": "0"
+{
+    "outputs":  {
+                    "downloaded_file":  "str",
+                    "message":  "str"
+                },
+    "dependencies_group":  "0",
+    "description":  "Downloads Solargis data",
+    "name":  "FetchSolargisDataPiece",
+    "inputs":  {
+                   "s3_path":  "str",
+                   "output_path":  "str"
+               }
 }
